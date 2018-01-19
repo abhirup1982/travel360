@@ -1,0 +1,11 @@
+---
+applications:
+- name: travel360
+  memory: 1024M
+  instances: 1
+  path: target\auth-1.5.4.RELEASE.war
+  services:
+  - travel360-registry
+  - travel360-login
+  env:
+    TRUST_CERTS: api.system.cumuluslabs.io

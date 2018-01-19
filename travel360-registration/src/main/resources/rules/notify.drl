@@ -1,0 +1,17 @@
+package rules
+
+import com.easy.travel.registration.model.RegistrationDataModel
+import com.easy.travel.registration.service.TravelNotificationService
+
+rule "Offer for Diamond"
+	when
+		registrationModel: RegistrationDataModel(userPets=="Yes")
+	then
+		registrationModel.addNotification(TravelNotificationService.genericNotification_1());
+	end
+rule "Offer for Gold"
+	when
+		registrationModel: RegistrationDataModel(userGender=="Male" && userMarried=="Married")
+	then
+		registrationModel.setUserGender("Male");
+	end
