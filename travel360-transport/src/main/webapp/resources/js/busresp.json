@@ -1,0 +1,37 @@
+{"BusRouteInfo": [{
+"RouteId": {
+"Code": "R1",
+"Fare": 8
+},
+"Route": {
+"RouteDesc": "AIRPORT-CITYCENTER-MARINABEACH"
+},
+"CurrencyCode": "USD",
+"FirstDepartureTime": 1508112000000,
+"Freq": "Every 30 mins"
+},
+{
+"RouteId": {
+"Code": "R3",
+"Fare": 5
+},
+"Route": {
+"RouteDesc": "AIRPORT-CITYLIBRARY"
+},
+"CurrencyCode": "USD",
+"FirstDepartureTime": 1508112000000,
+"Freq": "Every 60 mins"
+},
+{
+"RouteId": {
+"Code": "R2",
+"Fare": 10
+},
+"Route": {
+"RouteDesc": "AIRPORT-NATIONAL MUSEAUM-HIGHSTREET"
+},
+"CurrencyCode": "USD",
+"FirstDepartureTime": 1508112000000,
+"Freq": "Every 15 mins"
+}
+]}
