@@ -1,0 +1,6 @@
+---
+applications:
+- name: travel360-cache
+  memory: 512M
+  instances: 1
+  path: target\spring-person-0.0.1-SNAPSHOT.jar

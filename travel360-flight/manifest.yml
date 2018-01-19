@@ -1,0 +1,11 @@
+---
+applications:
+- name: travel360-flight
+  memory: 1024M
+  instances: 1
+  path: target\flight-1.0-SNAPSHOT.war
+  services:
+  - travel360-registry
+  - travel360-rabbit
+  env:
+    TRUST_CERTS: api.system.cumuluslabs.io

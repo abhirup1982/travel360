@@ -1,0 +1,8 @@
+---
+applications:
+- name: travel360-lang
+  memory: 512M
+  instances: 1
+  path: target\internalization-0.0.1-SNAPSHOT.jar
+  env:
+    TRUST_CERTS: api.system.cumuluslabs.io
